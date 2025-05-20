@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover the latest audio projects from Edonbeatz. Professional music production, mixing and mastering portfolio." />
+  <meta name="keywords" content="music projects, YouTube portfolio, Edonbeatz, mixing, mastering, audio engineering" />
+  <meta name="author" content="Edonbeatz" />
+  <title>Projects | Edonbeatz</title>
+  <link rel="stylesheet" href="css/light.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar sticky">
+      <div class="logo">
+        <img src="images/logo.webp" alt="Edonbeatz Logo" />
+        <span>Edonbeatz</span>
+      </div>
+
+      <!-- Theme toggle & hamburger menu -->
+      <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
+      <button id="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>My Projects</h1>
+      <p class="subheading">Enjoy a curated selection of recent work straight from YouTube.</p>
+    </section>
+    <section class="projects">
+
+      <div id="youtube-projects" class="project-cards" data-limit="10"></div>
+
+      <div class="project-actions">
+        <a href="https://www.youtube.com/@edonbeatz" target="_blank" class="btn">View More</a>
+        <a href="https://www.youtube.com/@edonbeatz?sub_confirmation=1" target="_blank" class="btn subscribe">Subscribe</a>
+        <p id="subscriber-count"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Edonbeatz. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
+
