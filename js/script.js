@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTheme(theme);
   });
 
-  const savedTheme = localStorage.getItem('theme') || 'dark';
-  setTheme(savedTheme);
+  //const savedTheme = localStorage.getItem('theme') || 'dark';
+  //setTheme(savedTheme);
 });
 
