@@ -8,7 +8,12 @@
   <meta name="keywords" content="music production, audio mixing, mastering, portfolio, beats, sound engineer" />
   <meta name="author" content="Edonbeatz" />
   <title>Edonbeatz | Music Producer & Audio Engineer</title>
-  <link rel="stylesheet" href="css/light.css"/>
+  <script>
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  const cssPath = savedTheme === 'dark' ? 'css/style.css' : 'css/s2.css';
+  document.write(`<link rel="stylesheet" href="${cssPath}" />`);
+  </script>
+  
 </head>
 
 <body>
