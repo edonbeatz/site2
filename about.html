@@ -8,7 +8,12 @@
   <meta name="keywords" content="music producer, audio engineer, Edonbeatz, biography, contact" />
   <meta name="author" content="Edonbeatz" />
   <title>About | Edonbeatz</title>
-  <link rel="stylesheet" href="css/light.css" />
+  <script>
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  const cssPath = savedTheme === 'dark' ? 'css/light.css' : 'css/dark.css';
+  document.write(`<link rel="stylesheet" href="${cssPath}" />`);
+</script>
+
 </head>
 
 <body>
